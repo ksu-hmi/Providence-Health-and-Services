@@ -1,0 +1,11 @@
+#pip install pytube
+
+youtube_videolink = input("Paste the link to the video you would like to download: ")
+from pytube import YouTube
+yt = YouTube(youtube_videolink)
+print(yt.title)
+print(yt.thumbnail_url)
+print(yt.streams.all())
+stream = yt.streams.first()
+print(stream)
+stream.download(r"C:\Users\chris\Desktop\python class\youtube downloads")
