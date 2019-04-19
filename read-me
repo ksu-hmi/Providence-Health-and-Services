@@ -31,3 +31,9 @@ https://github.com/Cool-fire/Music-Player/blob/master/music.py
 Christian  Haygood  
 https://github.com/python-hospital/django-doctor 
 https://github.com/ytdl-org/youtube-dl 
+
+
+*4/19/2019 UPDATE*
+
+This patient portal has since evolved to function on Flask rather than Django for simple ease-of-use reasons. The platform will provide
+adequate functionality for this project and will allow us to work collaboratively on various tasks throughout the build.
