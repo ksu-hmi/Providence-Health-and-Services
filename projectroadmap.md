@@ -2,7 +2,7 @@
 *Task List*
 
 1. Create Flask webpage to display all necessary applications - Solome
-2. Get youtube viewer operating in flask - Christian
+2. Get youtube viewer operating in flask - Christian **DONE**
 3. Get python based memory game operational - Teresa
 4. Get spotify or music player functioning in flask - Charles
 5. Work to implement youtube downloader in flask - Christian
