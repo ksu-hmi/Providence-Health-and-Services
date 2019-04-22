@@ -6,7 +6,7 @@
 3. Get python based memory game operational - Teresa **DONE**
 4. Get spotify or music player functioning in flask - Charles
 5. Work to implement youtube downloader in flask - Christian **DONE**
-6. Design flask webpage for health system - Solome 
+6. Design flask webpage for health system - Solome Making progress
 7. Review pertinent github repositories for error or room for improvement - All members
 8. Collaborate on integrating the youtube player and web page - Solome and Christian
 9. Collaborate on integrating the music player and web page - Solome and Charles
