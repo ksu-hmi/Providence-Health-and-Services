@@ -9,5 +9,5 @@
 6. Design flask webpage for health system - Solome Making progress
 7. Review pertinent github repositories for error or room for improvement - All members
 8. Collaborate on integrating the youtube player and web page - Solome and Christian
-9. Collaborate on integrating the music player and web page - Solome and Charles
+9. Collaborate on integrating the music player and web page - Solome and Charles**DONE**
 10. Collaborate on integrating the memory game and web page - Teresa and Solome
