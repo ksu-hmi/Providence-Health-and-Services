@@ -22,11 +22,7 @@ Solome Mekbib
 https://www.djangoproject.com/ 
 https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/skeleton_website  
 https://github.com/yashvone/pharmacy-management 
-Teresa Evans:   
-http://ibmdecisionoptimization.github.io/docplex-doc/mp/nurses.html 
-https://github.com/ayushnawal/Mini-Py-Projects 
-https://github.com/WoodSpencer/WordGames 
- 
+
 Charles Chakkalapadavil  
 https://developer.spotify.com/documentation/web-api/ 
 https://github.com/albertz/music-player-core/blob/master/chromaprint/CMakeLists.txt  
@@ -35,6 +31,10 @@ https://github.com/Cool-fire/Music-Player/blob/master/music.py
 Christian  Haygood  
 https://github.com/python-hospital/django-doctor 
 https://github.com/ytdl-org/youtube-dl 
+
+Teresa Evans
+https://github.com/HemanthK9/Match-Pairs-Game
+https://github.com/vhparadajr/Card_Matching_Game
 
 
 *4/19/2019 UPDATE*
