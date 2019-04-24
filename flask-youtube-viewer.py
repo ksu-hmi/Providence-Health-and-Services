@@ -1,14 +1,10 @@
-from flask import Flask
+from flask import Flask, render_template
 from string import Template
 app = Flask(__name__)
 
 @app.route('/')
-def homepage():
-    return """
-    <h1>Hi! Type out "/videos/" + your youtube video ID to the end of the URL above</h1>
-
-    <iframe src="https://www.youtube.com/embed/DkYqWRgiIz4" width="853" height="480" frameborder="0" allowfullscreen></iframe>
-    """
+def index():
+    return render_template('header.html')
 
 @app.route('/videos/<vid>')
 def videos(vid):
@@ -24,7 +20,6 @@ def videos(vid):
     """)
 
     return vidtemplate.substitute(youtube_id=vid)
-
 
 if __name__ == '__main__':
     app.run(debug=True, use_reloader=True)
