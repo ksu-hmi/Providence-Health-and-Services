@@ -2,7 +2,7 @@
 //add selected
 //if two cards have selected - see if they are a match
 //if they are a match add match class and remove select, so you can keep selecting
-
+//how do we embed this in Flask?
 var tempArray = ['ghostwhite','saddlebrown','darkred','salmon','forestgreen','orangered', 'yellow','bisque','saddlebrown','forestgreen','ghostwhite','purple','aqua', 'thistle', 'steelblue', 'darkred','salmon', 'thistle', 'steelblue', 'yellow', 'orangered','bisque','purple','aqua']
 
 
