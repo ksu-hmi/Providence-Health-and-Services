@@ -21,7 +21,7 @@ def media():
 
 @app.route("/patient-musicplayer")
 def music():
-    return render_template('ptentertainment.html')
+    return render_template('ptmusicplayer.html')
 
 @app.route('/videos/<vid>')
 def videos(vid):
