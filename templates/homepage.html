@@ -1,0 +1,65 @@
+<html>
+<head>
+<link type="text/css" href="{{url_for('static',filename='webpages.css')}}" rel="stylesheet"/>
+
+<style>
+
+.cell
+{
+		font-family:"Cabin Regular";
+		padding:250px;
+}
+.cella
+{
+		font-size:40px;
+		text-decoration:none;
+		color:white;
+		font-family:Cabin Regular;
+		font-weight:900;
+}
+.content
+.bg {
+               
+               background-image: url("https://www.yourprovidencehealth.com/Content/Uploads/Providence%20Hospitals/images/Building%20Facilities%20Photos/Providence%20Health%20downtown%20hospital%20at%20night.jpg");
+                                     
+               height: 100%;
+               background-position: center;
+               background-repeat: no-repeat;
+               background-size: cover;
+             }
+</style>
+
+<body>
+
+<h1>
+
+<img src="{{url_for('static',filename='hlogo.jpg')}}"  width="80" height="60">
+<span class="h1span">
+
+Providence Hospital Patient Portal</span>
+
+</h1>
+
+<div class="content">
+<table style="border-left:1px solid rgb(50,50,50)">
+<tr>
+<td class="cell">
+<a href="http://localhost:5000/patient-education" class="cella">Patient Education</a>
+</td>
+<td class="cell">
+<a href="http://localhost:5000/patient-mediaplayer" class="cella">Patient Media Player</a>
+</td>
+</tr>
+<tr>
+<td class="cell">
+<a href="http://localhost:5000/patient-musicplayer" class="cella">Patient Music Player</a>
+</td>
+<td class="cell">
+<a href="http://localhost:5000/patient-games" class="cella">Patient Games</a>
+</td>
+</tr>
+</table>
+</content>
+</div>
+</body>
+</html>
