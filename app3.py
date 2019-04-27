@@ -15,9 +15,6 @@ def patient():
 def patient_education():
     return render_template('pteducation.html')
 
-@app.route("/patient_mediaplayer")
-def patient_mediaplayer():
-    return render_template('ptmusicplayer.html')
 
 @app.route("/patient_musicplayer")
 def patient_musicplayer():
