@@ -19,9 +19,13 @@ def education():
 def media():
   return render_template('header.html')
 
+@app.route("/patient-games")
+def games():
+  return render_template('ptgames.html')
+
 @app.route("/patient-musicplayer")
 def music():
-  return render_template('ptentertainment.html')
+  return render_template('ptmusicplayer.html')
 
 @app.route('/videos/<vid>')
 def videos(vid):
@@ -37,10 +41,6 @@ def videos(vid):
   """)
 
   return vidtemplate.substitute(youtube_id=vid)
-
-@app.route("/patient-games")
-def games():
-  return render_template('ptgames.html')
 
 @app.route("/hello")
 def hello():
