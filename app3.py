@@ -11,13 +11,16 @@ def index():
 def patient():
     return render_template('patientservices.html')
 
-@app.route("/patient_education")
-def patient_education():
+@app.route("/patient-education")
+def education():
     return render_template('pteducation.html')
 
+@app.route("/patient-mediaplayer")
+def media():
+    return render_template('header.html')
 
-@app.route("/patient_musicplayer")
-def patient_musicplayer():
+@app.route("/patient-musicplayer")
+def music():
     return render_template('ptmusicplayer.html')
 
 @app.route('/videos/<vid>')
