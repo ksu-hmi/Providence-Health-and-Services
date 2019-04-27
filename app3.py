@@ -23,6 +23,10 @@ def media():
 def music():
     return render_template('ptmusicplayer.html')
 
+@app.route("/patient-games")
+def games():
+    return render_template('ptgames.html')
+
 @app.route('/videos/<vid>')
 def videos(vid):
     vidtemplate = Template("""
@@ -37,14 +41,6 @@ def videos(vid):
     """)
 
     return vidtemplate.substitute(youtube_id=vid)
-
-@app.route("/patient-games")
-def games():
-    return render_template('ptgames.html')
-
-@app.route("/hello")
-def hello():
-    return "Hello World!"
  
 if __name__ == "__main__":
     app.run(debug=True, use_reloader=True)
