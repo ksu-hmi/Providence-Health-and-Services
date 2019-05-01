@@ -18,24 +18,23 @@
         background-size: cover;
       }
     </style>
-   <title>My title</title>
+   <title>Arcade</title>
    <link rel="stylesheet" href="http://stash.compjour.org/assets/css/foundation.css">
-   
+   <br>
+<button onmousedown="accelerate(-0.2)" onmouseup="accelerate(0.05)">ACCELERATE</button>
+<p>Use the ACCELERATE button to stay in the air</p>
+<p>How long can you stay alive?</p>
+<form method="get" action="/">
+    <p>
+    <input type="submit" value="Home"/>
+    </p>
+  </form>
     <h1>Providence Health & Services </h1>
     <p>Family Medicine</p>
     <p>And here's our services:</p>
     <div class="bg">
    
-    <form method="get" action="/patient-musicplayer">
-        <p>
-        <input type="submit" value="Next Page"/>
-        </p>
-    </form>
-    <ul>
-    <li>
-    <a href="/patient-musicplayer">http://patient-musicplayer.com</a>
-    </li>
-    </ul>
+
     
     </div>
     
@@ -76,6 +75,7 @@ var myGameArea = {
         this.context.clearRect(0, 0, this.canvas.width, this.canvas.height);
     }
 }
+
 
 function component(width, height, color, x, y, type) {
     this.type = type;
@@ -168,10 +168,7 @@ function accelerate(n) {
     myGamePiece.gravity = n;
 }
 </script>
-<br>
-<button onmousedown="accelerate(-0.2)" onmouseup="accelerate(0.05)">ACCELERATE</button>
-<p>Use the ACCELERATE button to stay in the air</p>
-<p>How long can you stay alive?</p>
+
 </body>
         <div>
                 <iframe width="580" height="315" src="https://www.youtube.com/embed/6-pou5z5Q2w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

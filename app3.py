@@ -30,11 +30,17 @@ def games():
 @app.route('/videos/<vid>')
 def videos(vid):
     vidtemplate = Template("""
+             <form method="get" action="/">
+        <p>
+        <input type="submit" value="Home"/>
+        </p>
+    </form>
       <h2>
         YouTube video link: 
         <a href="https://www.youtube.com/watch?v=${youtube_id}">
           ${youtube_id}
         </a>
+        Other video ideas: "JNsKvZo6MDs" "bE4C8a48o1E"
       </h2>
     
       <iframe src="https://www.youtube.com/embed/${youtube_id}" width="853" height="480" frameborder="0" allowfullscreen></iframe>
