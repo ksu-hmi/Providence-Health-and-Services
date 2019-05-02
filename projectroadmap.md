@@ -10,5 +10,5 @@
 7. [ ] Review pertinent github repositories for error or room for improvement - All members
 8. [x ] Collaborate on integrating the youtube player and web page - Solome and Christian
 9. [x] Collaborate on integrating the music player and web page - Solome and Charles
-10. [ ] Collaborate on integrating the memory game and web page - Teresa and Solome
-11.[] Examine the template structure of the example given by our instructor on Online Food Ordering system and structure the providence website in a similar manner-Everyone's Task.
+10. [x ] Collaborate on integrating the memory game and web page - Teresa and Solome
+11.[x] Examine the template structure of the example given by our instructor on Online Food Ordering system and structure the providence website in a similar manner-Everyone's Task.
