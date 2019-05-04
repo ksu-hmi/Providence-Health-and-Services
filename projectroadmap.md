@@ -7,8 +7,8 @@
 4. [x] Get spotify or music player functioning in flask - Charles 
 5. [x] Work to implement youtube downloader in flask - Christian 
 6. [x] Design flask webpage for health system - Solome 
-7. [ ] Review pertinent github repositories for error or room for improvement - All members
-8. [x ] Collaborate on integrating the youtube player and web page - Solome and Christian
+7. [x] Review pertinent github repositories for error or room for improvement - All members
+8. [x] Collaborate on integrating the youtube player and web page - Solome and Christian
 9. [x] Collaborate on integrating the music player and web page - Solome and Charles
-10. [x ] Collaborate on integrating the memory game and web page - Teresa and Solome
-11.[x] Examine the template structure of the example given by our instructor on Online Food Ordering system and structure the providence website in a similar manner-Everyone's Task.
+10. [x] Collaborate on integrating the memory game and web page - Teresa and Solome
+11. [x] Present our Open Source Healhcare Website to class - Everybody
