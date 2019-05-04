@@ -11,4 +11,4 @@
 8. [x] Collaborate on integrating the youtube player and web page - Solome and Christian
 9. [x] Collaborate on integrating the music player and web page - Solome and Charles
 10. [x] Collaborate on integrating the memory game and web page - Teresa and Solome
-11. [] Present our Open Source Healhcare Website to class - Everybody
+11. [x] Present our Open Source Healhcare Website to class - Everybody
