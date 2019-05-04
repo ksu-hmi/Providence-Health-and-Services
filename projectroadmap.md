@@ -8,7 +8,7 @@
 5. [x] Work to implement youtube downloader in flask - Christian 
 6. [x] Design flask webpage for health system - Solome 
 7. [ ] Review pertinent github repositories for error or room for improvement - All members
-8. [x ] Collaborate on integrating the youtube player and web page - Solome and Christian
+8. [x] Collaborate on integrating the youtube player and web page - Solome and Christian
 9. [x] Collaborate on integrating the music player and web page - Solome and Charles
-10. [x ] Collaborate on integrating the memory game and web page - Teresa and Solome
+10. [x] Collaborate on integrating the memory game and web page - Teresa and Solome
 
